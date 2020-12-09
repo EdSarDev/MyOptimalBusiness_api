@@ -1,2 +1,2 @@
 # MyOptimalBusiness
-Proyecto (desafío 7) de MisiónTIC 2022 - Ciclo 3. Equipo 5 de G1M2.
+Este es el proyecto (desafío 7) de MisiónTIC 2022 - Ciclo 3. Equipo 5 de G1M2.
