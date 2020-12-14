@@ -41,3 +41,8 @@ def get_user(username: str):
 def update_user(user_in_db: usuario):
     database_users[user_in_db.username] = user_in_db
     return user_in_db
+
+def add_user(user_in_db:usuario):
+    if not user_in_db.username in database_users.keys():
+        database_users[user_in_db.username]=user_in_db
+        return user_in_db
