@@ -25,7 +25,7 @@ origins = [
     "https://localhost.tiangolo.com",
     "http://localhost", 
     "http://localhost:8080", 
-    "https://myoptimalbusiness-api.herokuapp.com"
+    "https://myoptimalbusiness-app.herokuapp.com"
 ]
 
 api.add_middleware(
