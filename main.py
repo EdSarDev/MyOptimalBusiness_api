@@ -107,7 +107,7 @@ async def create_client(client_in:ClientIn):
     return created_client
 
 
-@api.get("/client/{client_id}}/")
+@api.get("/client/{client_id}/")
 async def get_name(client_id:int):
 
     client_in_db=get_client(client_id)
@@ -115,7 +115,7 @@ async def get_name(client_id:int):
     if client_in_db==None:
         raise HTTPException(status_code=404, 
                             detail="No se encontró cliente")
-    client_out=ClientOut(**client_in_db.dict())
+    client_out=ClientIn(**client_in_db.dict())
     return client_out
 
 
