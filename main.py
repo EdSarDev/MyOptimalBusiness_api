@@ -199,7 +199,7 @@ async def eliminate_product(product_id: int):
     deleted_product=get_product(product_id)
 
     if(deleted_product == None):
-        raise HTTPException(status_code = 404, detail = "No sé encontró cliente")
+        raise HTTPException(status_code = 404, detail = "No sé encontró producto")
     
     delete_product(product_id)
 
